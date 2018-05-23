@@ -14,7 +14,13 @@ public class ClientePrincipal {
         double valorResposta = servicoSoma.soma(20, 40);
         
         System.out.println("Resposta = " + valorResposta);
-    
+        
+        System.out.println(servicoSoma.advinhar(3));
+        System.out.println(servicoSoma.advinhar(3));
+        System.out.println(servicoSoma.advinhar(3));
+        System.out.println(servicoSoma.advinhar(3));
+        
+        
     }
     
 }
